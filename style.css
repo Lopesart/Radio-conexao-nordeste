@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #587b7f;
+    --cor02: #1e2019;
+    --cor03: #394032;
+    --cor04:#ff8400;
+    --cor05: #edf060;   
+}
+*{
+    margin: 0px;
+}
+body {
+    background-image: url("gonzaga.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 5px 5px 5px;
+}
+.conteudo {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: var(--cor05);
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.193);
+    border-radius:15px;
+}
+header {
+    border-radius: 15px 15px 0px 0px;
+    padding: 30px 10px;
+    background-color: var(--cor04);
+}
+header h1 {
+    margin: 0px 0px 0px 10px;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    }
+header img {
+    box-shadow: inset;
+    max-width: 350px;
+    min-width: 50px;
+}
+header iframe {
+    border-radius: 15px;
+}
+nav {
+    padding: 10px;
+    background-color: var(--cor01);
+}
+.whatsapp_float{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    color:#fff;
+    width:150px;
+    height:50px;
+    border-radius:50px;
+    text-align:center;
+    font-size:16px;
+    text-decoration:none;
+    z-index:100;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.259);
+}
+.whatsapp_float:hover{
+    background-color:#1a9547;
+    transition-duration: 1.5s;
+}
+main {
+    background-color: var(--cor04);
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+aside {
+    background-color: var(--cor04);
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 15px;
+}
+aside h2 {
+    text-align: center;
+    color: white;
+}
+
+.anucio img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--cor01);
+    border-radius: 10px;
+}
+footer a{
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
