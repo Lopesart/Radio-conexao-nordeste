@@ -30,8 +30,8 @@ body {
 header {
     position: relative;
     border: 1px solid var(--cor02);
-    border-radius: 15px 15px 0px 15px;
-    padding: 30px 10px 0px 10px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0px 10px 0px 0px;
     background-color: var(--cor04);
 }
 
@@ -45,7 +45,7 @@ header h1 {
     background-color: var(--cor04);
     padding: 2px;
     border-radius: 15px;
-    margin: 10px .5px 0px .5%;
+    margin: 3px .5px 0px .5%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
@@ -59,7 +59,7 @@ iframe {
     position: relative;
     z-index: 1;
     display: inline;
-    border-radius: 10px;
+    border-radius: 10px 0PX 40PX 0PX;
     margin: 0px;
     background-color: var(--cor04); 
 }
@@ -81,7 +81,7 @@ iframe {
 }
 nav {
     border: 0px 1px solid var(--cor02);
-    padding: 10px;
+    padding: 010px;
     background-color: var(--cor01);
 }
 .whatsapp_float{
